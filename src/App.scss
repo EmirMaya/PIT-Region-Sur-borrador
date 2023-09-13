@@ -1,0 +1,24 @@
+:root {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+  --bg-color: #FFFCFF;
+  --dark-color: #001B2E;
+  --white-color: #ffffff;
+  --light-color: #fcfcfc;
+  --steel-blue: #337AB7;
+  --steel-blue-medium: #4089C9;
+  --light-sky-blue-matte: #90BAE0;
+  --slate-gray-matte: #CBD4C2;
+  --khaki: #C3B299;
+  --success-color: #00bd00;
+  --error-color: #ff0000;
+  // hay que cambiar las fuentes aqui
+  --fuente-principal: 'Arial', sans-serif;
+  --fuente-encabezados: 'Helvetica Neue', sans-serif;
+  --fuente-texto: 'Roboto', sans-serif;
+}
+
+
+body {
+  background-color: var(--bg-color);
+}

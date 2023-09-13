@@ -1,0 +1,23 @@
+@import '../../scss/extend.scss';
+
+.us-section {
+    background-color: var(--light-color);
+    margin: 40px;
+    padding: 50px;
+    @extend %flex-center-center;
+    color: var(--dark-color);
+}
+
+.us-div-section {
+    width: 60%;
+    padding-right: 50px;
+}
+
+.us-title {
+    font-size: 30px;
+    border-bottom: 3px solid var(--steel-blue-medium);
+}
+
+.us-img {
+    width: 40%;
+}

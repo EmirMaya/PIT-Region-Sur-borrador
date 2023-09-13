@@ -1,0 +1,13 @@
+/*extends*/
+
+%flex-around-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+%flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
