@@ -23,7 +23,7 @@ const NavbarComponent = () => {
                         </NavLink>
                     </li>
                     <li className="icon-li">
-                        <NavLink target="_blank">
+                        <NavLink target="_blank" to="https://www.linkedin.com/company/pitsurmendoza/">
                             <FontAwesomeIcon className='icon' icon={faLinkedin} size="xl" />
                         </NavLink>
                     </li>

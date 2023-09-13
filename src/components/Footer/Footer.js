@@ -13,7 +13,7 @@ const Footer = () => {
                 <NavLink target="_blank" to="https://www.instagram.com/pitsurmendoza/">
                     <FontAwesomeIcon className='foot-icon' icon={faSquareInstagram} size="xl" />
                 </NavLink>
-                <NavLink target="_blank">
+                <NavLink target="_blank" to="https://www.linkedin.com/company/pitsurmendoza/">
                     <FontAwesomeIcon className='foot-icon' icon={faLinkedin} size="xl" />
                 </NavLink>
             </div>

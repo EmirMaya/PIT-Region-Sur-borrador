@@ -1,6 +1,8 @@
 @import '../../scss/extend.scss';
+
 .footer {
     background-color: var(--slate-gray-matte);
+    color: var(--dark-color);
     padding: 20px 70px;
 }
 
@@ -9,16 +11,24 @@
     width: 23%;
 }
 
+
 .foot-icon {
-    color: #001B2E;
+    color: var(--dark-color);
     font-size: 40px;
+
+    &:hover {
+        color: var(--steel-blue-medium);
+    }
 }
 
 .copyright {
     margin-top: 10px;
     text-align: center;
-    color: #001B2E;
     padding-top: 5px;
-    border-top: 1px solid #001B2E;
+    border-top: 1px solid var(--dark-color);
     font-size: 12px;
+}
+
+.foot-logo {
+    color: var(--dark-color);
 }
