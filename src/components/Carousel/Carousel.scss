@@ -1,3 +1,14 @@
+@import "../../scss/extend.scss";
+
 .carousel-img {
     height: 560px;
+}
+
+.carousel-caption, .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--dark-color-shadow);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+   border-radius: 50%;
+   padding: 18px;
 }

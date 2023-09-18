@@ -9,7 +9,7 @@ const CarouselComponent = () => {
                     src="./img/carousel1.jpg"
                     alt="PIT Region Sur Logo"
                 />
-                <Carousel.Caption>
+                <Carousel.Caption className='caraousel-caption'>
                     <h3>First slide label</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
