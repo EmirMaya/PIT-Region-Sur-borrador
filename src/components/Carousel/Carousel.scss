@@ -4,11 +4,19 @@
     height: 560px;
 }
 
-.carousel-caption, .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: var(--dark-color-shadow);
+.carousel-caption,
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--dark-shadow);
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-   border-radius: 50%;
-   padding: 18px;
+.carousel-caption {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    border-radius: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 50%;
+    padding: 18px;
 }

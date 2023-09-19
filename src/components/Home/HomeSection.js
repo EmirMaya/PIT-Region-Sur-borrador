@@ -39,7 +39,7 @@ const HomeSection = () => {
 
             <section className='us-section'>
                 <img className='us-img' src="./img/carousel1.jpg" alt='sobre-nosotros' />
-                <div className='us-div-section text-end'>
+                <div className='us-div-section-rg text-end'>
                     <h2 className='us-title'>
                         ¿QUIÉNES LO FORMAMOS?
                     </h2>

@@ -3,9 +3,11 @@
   overscroll-behavior: none;
   --bg-color: #FFFCFF;
   --dark-color: #001B2E;
-  --dark-color-shadow: rgba(0, 27, 46, 0.637);
+  --dark-color-shadow: rgba(0, 27, 46, 0.315);
+  --dark-shadow: rgba(0, 27, 46, 0.582);
   --white-color: #ffffff;
   --light-color: #fcfcfc;
+  --steel-blue-dark: #1B3F5F;
   --steel-blue: #337AB7;
   --steel-blue-medium: #4089C9;
   --light-sky-blue-matte: #90BAE0;
@@ -14,6 +16,7 @@
   --success-color: #00bd00;
   --error-color: #ff0000;
   // hay que cambiar las fuentes aqui
+  --fuente-encabezados-test: 'Anton', sans-serif;
   --fuente-principal: 'Arial', sans-serif;
   --fuente-encabezados: 'Helvetica Neue', sans-serif;
   --fuente-texto: 'Roboto', sans-serif;
